@@ -1,0 +1,87 @@
+<svg width="1600" height="430" viewBox="0 0 1600 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">wayzzoo — Go backend developer</title>
+  <desc id="description">
+    Dark pink and purple banner for the GitHub profile of wayzzoo.
+  </desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1600" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"></stop>
+      <stop offset="0.5" stop-color="#15121A"></stop>
+      <stop offset="1" stop-color="#241522"></stop>
+    </linearGradient>
+
+    <linearGradient id="titleGradient" x1="125" y1="100" x2="720" y2="315" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0C5DC"></stop>
+      <stop offset="0.52" stop-color="#D993BB"></stop>
+      <stop offset="1" stop-color="#A88BC8"></stop>
+    </linearGradient>
+
+    <linearGradient id="terminalBorder" x1="1110" y1="90" x2="1480" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7B7D1" stop-opacity="0.65"></stop>
+      <stop offset="1" stop-color="#9C7CBC" stop-opacity="0.2"></stop>
+    </linearGradient>
+
+    <filter id="pinkGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="75"></feGaussianBlur>
+    </filter>
+
+    <filter id="purpleGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="95"></feGaussianBlur>
+    </filter>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#E7B7D1" stroke-opacity="0.025"></path>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="430" rx="30" fill="url(#background)"></rect>
+
+  <rect width="1600" height="430" rx="30" fill="url(#grid)"></rect>
+
+  <circle cx="1435" cy="40" r="265" fill="#D989B6" fill-opacity="0.13" filter="url(#pinkGlow)"></circle>
+
+  <circle cx="1060" cy="430" r="250" fill="#9271B4" fill-opacity="0.1" filter="url(#purpleGlow)"></circle>
+
+  <path d="M0 348C260 290 475 409 737 346C1000 283 1230 307 1600 217" stroke="#E7B7D1" stroke-opacity="0.11" stroke-width="2"></path>
+
+  <path d="M0 373C275 315 500 429 765 366C1030 303 1260 329 1600 247" stroke="#A88BC8" stroke-opacity="0.08" stroke-width="2"></path>
+
+  <text x="120" y="190" fill="url(#titleGradient)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="94" font-weight="700" letter-spacing="-5">
+    wayzzoo
+  </text>
+
+  <text x="126" y="250" fill="#E6EDF3" fill-opacity="0.94" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29" font-weight="500">
+    Go backend developer
+  </text>
+
+  <text x="126" y="304" fill="#9AA3AD" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="20">
+    reliable services · background workers · infrastructure
+  </text>
+
+  <rect x="126" y="337" width="94" height="4" rx="2" fill="#E7B7D1"></rect>
+
+  <rect x="1110" y="90" width="360" height="246" rx="18" fill="#0D1117" fill-opacity="0.55" stroke="url(#terminalBorder)"></rect>
+
+  <circle cx="1144" cy="124" r="6" fill="#E7B7D1" fill-opacity="0.75"></circle>
+  <circle cx="1165" cy="124" r="6" fill="#A88BC8" fill-opacity="0.65"></circle>
+  <circle cx="1186" cy="124" r="6" fill="#69727D" fill-opacity="0.6"></circle>
+
+  <text x="1140" y="175" fill="#A88BC8" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="18">
+    $ whoami
+  </text>
+
+  <text x="1140" y="207" fill="#E7B7D1" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="18">
+    wayzzoo
+  </text>
+
+  <text x="1140" y="252" fill="#A88BC8" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="18">
+    $ stack
+  </text>
+
+  <text x="1140" y="284" fill="#C7CDD4" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="18">
+    go · postgres · docker
+  </text>
+
+  <rect x="1140" y="307" width="11" height="22" rx="2" fill="#E7B7D1" fill-opacity="0.8"></rect>
+</svg>
